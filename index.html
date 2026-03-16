@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>미니 2D 파쿠르</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-layout">
+      <h1>미니 2D 파쿠르: 스테이지 모드</h1>
+      <p>
+        <strong>이동:</strong> ← → 또는 A D,
+        <strong>점프:</strong> Space / ↑ / W,
+        <strong>재시작:</strong> R
+      </p>
+      <p>깃발에 닿으면 다음 스테이지로 이동하고, 스테이지가 올라갈수록 점프 난이도와 장애물이 늘어납니다.</p>
+      <canvas id="game" width="960" height="540" aria-label="2D 파쿠르 게임"></canvas>
+      <p id="status" aria-live="polite">스테이지 1: 깃발까지 도착하세요!</p>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
