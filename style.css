@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark;
+  font-family: "Pretendard", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #1d2635 0%, #11151f 55%, #090b11 100%);
+  color: #e7ecf5;
+}
+
+.game-layout {
+  width: min(100%, 1000px);
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0.35rem 0 0.75rem;
+}
+
+#status {
+  min-height: 1.4em;
+  color: #9ad6ff;
+  font-weight: 600;
+}
+
+canvas {
+  width: min(100%, 960px);
+  border: 2px solid #324562;
+  border-radius: 10px;
+  background: linear-gradient(#85c8f8, #d1efff 70%);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 45%);
+}
